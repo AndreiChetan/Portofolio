@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- box import icons -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- my stylesheets -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Andrei's Portofolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Protofolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, My Name is</h3>
+        <h1>Andrei Chețan</h1>
+        <h3>And I'm a <span class="multi-text"></span></h3>
+        <p>
+          I design and code beautifully simple things, and I love what I do.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#" class=""><i class="bx bxl-github"></i></a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="img/profile-pic.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- About section  -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/About1.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          Hey, I am a passionate junior frontend developer eager to learn and
+          grow in the dynamic world of web development. I'm excited about
+          crafting beautiful and intuitive user interfaces that bring ideas to
+          life. Having recently embarked on my journey as a frontend developer,
+          I am constantly exploring new technologies and techniques to enhance
+          my skills<span id="dots">...</span
+          ><span id="more"
+            >. With a solid foundation in HTML, CSS, and JavaScript, I am
+            equipped to create visually appealing and responsive websites. I
+            approach each project with enthusiasm and a hunger for knowledge. I
+            believe in the power of collaboration and learning from experienced
+            professionals in the field. Working closely with mentors and peers,
+            I am committed to refining my abilities and delivering solutions
+            that not only meet client requirements but also provide an
+            exceptional user experience.</span
+          >
+        </p>
+        <button onclick="readMore()" class="btn" id="readBtn">Read More</button>
+        <div class="skills">
+          <h2>Skills</h2>
+          <div class="skills-icon">
+            <div class="skill-content">
+              <i class="bx bxl-html5 html" title="HTML"
+                ><span class="span-percentage">95%</span></i
+              >
+            </div>
+
+            <div class="skill-content">
+              <i class="bx bxl-css3 css" title="CSS"
+                ><span class="span-percentage">90%</span></i
+              >
+            </div>
+
+            <div class="skill-content">
+              <i class="bx bxl-javascript js" title="JS"
+                ><span class="span-percentage">75%</span></i
+              >
+            </div>
+
+            <div class="skill-content">
+              <i class="bx bxl-bootstrap bootstrap" title="Bootstrap"
+                ><span class="span-percentage">80%</span></i
+              >
+            </div>
+
+            <div class="skill-content">
+              <i class="bx bxl-react react" title="React"
+                ><span class="span-percentage">60%</span></i
+              >
+            </div>
+
+            <div class="skill-content">
+              <i class="bx bxl-github github" title="GitHub"
+                ><span class="span-percentage">70%</span></i
+              >
+            </div>
+
+            <div class="skill-content">
+              <i class="bx bxl-sass sass" title="SASS"
+                ><span class="span-percentage">50%</span></i
+              >
+            </div>
+
+            <div class="skill-content">
+              <i class="bx bxl-adobe adobe" title="Adobe Suite"
+                ><span class="span-percentage">70%</span></i
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+
+    <section class="services" id="services">
+      <h2 class="heading">Offering <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Are you looking to establish a strong online presence or revamp your
+            existing website? Our web development service offers the expertise
+            and creativity needed to bring your vision to life. We specialize in
+            crafting custom websites tailored to your unique needs and
+            objectives<span id="dots2">...</span
+            ><span id="more2"
+              >Our web development process begins with a deep understanding of
+              your goals and target audience. We work closely with you to create
+              a comprehensive strategy that aligns with your brand identity and
+              business objectives. Using cutting-edge technologies and best
+              practices, we develop clean and efficient code to deliver a
+              website that is both visually appealing and optimized for
+              performance. Whether you need a simple informational website or a
+              complex e-commerce platform, we have the expertise to handle
+              projects of all sizes.</span
+            >
+          </p>
+
+          <button onclick="readMore2()" class="btn" id="readBtn2">
+            Read More
+          </button>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            At our graphic design service, we believe in the power of visual
+            storytelling. We offer a comprehensive range of creative solutions
+            to help your brand stand out and make a lasting impression. We are
+            passionate about transforming ideas into visually stunning designs
+            that resonate with your target audience<span id="dots3">...</span
+            ><span id="more3"
+              >. Whether you need a new logo, eye-catching marketing materials,
+              or a complete brand identity overhaul, we have the expertise and
+              artistic flair to bring your vision to life. We take the time to
+              understand your brand values, target market, and goals to create
+              designs that not only look great but also effectively communicate
+              your message. Our graphic design process is collaborative and
+              iterative. We work closely with you, ensuring that your feedback
+              and ideas are incorporated into the final design. From
+              conceptualization to execution, we pay attention to every detail,
+              using color, typography, and composition to create visually
+              impactful designs that capture the essence of your brand.
+              objectives</span
+            >
+          </p>
+
+          <button onclick="readMore3()" class="btn" id="readBtn3">
+            Read More
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- protofolio section -->
+
+    <section class="portofolio" id="portofolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portofolio-container">
+        <div class="portofolio-box">
+          <img src="img/Pong.jpg" alt="" />
+          <div class="portofolio-layer">
+            <h4>Pong Game</h4>
+            <p>A classic game to vanquish stress and chill out</p>
+            <a href="https://andreichetan.github.io/Pong/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portofolio-box">
+          <img src="img/landingpage.jpg" alt="" />
+          <div class="portofolio-layer">
+            <h4>A Split Landing Page</h4>
+            <p>A Split Landing Page made for gaming enthusiasts</p>
+            <a
+              href="https://andreichetan.github.io/Split-Landing-Page/"
+              target="_blank"
+            >
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portofolio-box">
+          <img src="img/joketeller.jpg" alt="" />
+          <div class="portofolio-layer">
+            <h4>A robot Joketeller</h4>
+            <p>
+              If you need someone to lighten up your mood, Robbie will crack up
+              some corny jokes
+            </p>
+            <a
+              href="https://andreichetan.github.io/Joke-Robot/"
+              target="_blank"
+            >
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portofolio-box">
+          <img src="img/robofriends.jpg" alt="" />
+          <div class="portofolio-layer">
+            <h4>A Robo Project</h4>
+            <p>A search app done with React</p>
+            <a
+              href="https://andreichetan.github.io/robofriends/"
+              target="_blank"
+            >
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portofolio-box">
+          <img src="img/choice.jpg" alt="" />
+          <div class="portofolio-layer">
+            <h4>Random choice picker</h4>
+            <p>
+              To many things to do and don't know where to start? No problem,
+              with our random choice picker you can start right away
+            </p>
+            <a
+              href="https://andreichetan.github.io/Random-Choice-Picker/"
+              target="_blank"
+            >
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portofolio-box">
+          <img src="img/movieui.jpg" alt="" />
+          <div class="portofolio-layer">
+            <h4>Movie Layout</h4>
+            <p>
+              A Movie Layout with search bar and rating. Picking the right movie
+              can't be easier now.
+            </p>
+            <a href="https://andreichetan.github.io/Movie-UI/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message..."
+        ></textarea>
+        <input
+          type="submit"
+          name=""
+          id="submit"
+          value="Send Message"
+          class="btn btn-hover"
+        />
+        <a
+          type="submit"
+          href="mailto:chetanandrei1@gmail.com"
+          target="_blank"
+          class="btn btn-email"
+        >
+          Send Email
+        </a>
+      </form>
+    </section>
+    <!-- footer section -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Andrei Chețan | All Rights Reserved</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- ScrollReveal Script -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- text JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
