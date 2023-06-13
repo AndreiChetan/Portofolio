@@ -660,7 +660,7 @@ input[type="number"] {
 
   .home-img img {
     width: 60vw;
-    margin-top: 4rem;
+    margin: 4rem auto;
   }
 
   .about {
@@ -696,6 +696,11 @@ input[type="number"] {
   .portofolio-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .footer {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -715,10 +720,5 @@ input[type="number"] {
 
   .about-img img {
     width: 100vw;
-  }
-
-  .footer {
-    flex-direction: column-reverse;
-    gap: 1rem;
   }
 }
