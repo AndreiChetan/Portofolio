@@ -92,6 +92,7 @@ const text = new Typed(".multi-text", {
 
 const btnDisabled = document.querySelector(".btn-hover");
 const btnEmail = document.querySelector(".btn-email");
+const formReset = document.getElementById("form");
 
 btnDisabled.onclick = (e) => {
     e.preventDefault();
@@ -99,6 +100,7 @@ btnDisabled.onclick = (e) => {
     btnDisabled.style.border = "1px solid #888"
     btnDisabled.style.backgroundColor = "#ddd";
     btnEmail.style.display = "inline-flex";
+    formReset.reset();
 }
 
 // read more function
@@ -126,23 +128,6 @@ function readMore2() {
     const dots = document.getElementById("dots2");
     const moreText = document.getElementById("more2");
     const btnText = document.getElementById("readBtn2");
-
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
-
-    }
-}
-function readMore3() {
-
-    const dots = document.getElementById("dots3");
-    const moreText = document.getElementById("more3");
-    const btnText = document.getElementById("readBtn3");
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";

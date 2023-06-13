@@ -579,10 +579,7 @@ input[type="number"] {
   color: var(--text-color);
 }
 
-#more3 {
-  display: none;
-  color: var(--text-color);
-}
+
 
 /* Breakpoints */
 
